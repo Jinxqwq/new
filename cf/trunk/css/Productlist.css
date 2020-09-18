@@ -1,0 +1,237 @@
+/* banner区域 */
+#banner{
+    height: 521px;
+}
+#banner .mosho{
+    height: 90px;
+}
+/* 折扣区 */
+/* 标题 */
+#zk .com-title p{
+    width: 220px;
+    height: 47px;
+    line-height: 53px;
+    background-color: #ff6600;
+    text-align: center;
+}
+#zk .zk{
+    height: 530px;
+}
+#zk ul li:hover{
+    background-color: #f2f2f2;
+}
+#zk .zk ul li:hover del{
+    display: block;
+}
+#zk ul li{
+    position: relative;
+    float: left;
+    width: 212px;
+    height: 256px;
+    margin-right: 24px;
+}
+#zk .zk ul li .sj1{
+    width: 150px;
+    padding:8px 30px 0 30px;
+}
+#zk .zk ul li p{
+    text-indent: 18px;
+}
+#zk .zk ul li del{
+    margin-left: 18px;
+    color: #c0c0c0;
+    display: none;
+}
+/* 新书上架 */
+/* 标题 */
+#newbook div:first-child{
+    width: 904px;
+}
+#newbook p:first-child{
+    background-color: #ff6600;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+#newbook .p2{
+    line-height: 42px;
+}
+/* 内容 */
+/* 左边 */
+#newbook .book-left{
+    width: 902px;
+    height: 500px;
+    border: 1px solid #ccc;
+}
+#newbook .book-left li{
+    float: left;
+    width: 180px;
+    height: 250px;
+    text-indent: 18px;
+}
+#newbook .book-left li img{
+    margin-top: 15px;
+}
+#newbook .book-left li del{
+    text-indent: 6px;
+}
+#newbook .book-left li p{
+    line-height: 25px;
+}
+
+/* 右边 */
+#newbook .book-right{
+    width: 280px;
+    height: 500px;
+}
+/* 右边的新书畅销榜 */
+#newbook .book-right{
+    width: 280px;
+    border: 1px solid #ccc;
+}
+#newbook .book-right h4{
+    line-height: 50px;
+    text-indent: 8px;
+}
+#newbook .book-right ul li{
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+    color: #4d4d4d;
+    font-size: 16px;
+}
+#newbook .book-right ul li .box1{
+    height: 42px;
+    overflow: hidden;
+}
+#newbook .book-right ul li:last-child{
+    border:0;
+}
+#newbook .book-right ul li .box2{
+    padding: 20px 0;
+    display: none;
+}
+#newbook .book-right ul li:first-child .box2{
+    display: block;
+}
+#newbook .book-right ul li:first-child .box1{
+    display: none;
+}
+
+#newbook .book-right ul li span{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    color: #ccc;
+    background: #b3b3b3;
+    right: 0;
+    top: 0px;
+}
+#newbook .book-right ul li:nth-child(1) span{
+    background: #ff6600;
+}
+#newbook .book-right ul li:nth-child(2) span{
+    background: #ff6600;
+}
+#newbook .book-right ul li:nth-child(3) span{
+    background: #ff6600;
+}
+#newbook .book-right ul li .title{
+    font-size: 16px;
+    color: #4d4d4d;
+}
+#newbook .book-right ul li div p{
+    line-height: 22px;
+    color: #404040;
+    padding: 5px;
+}
+/* 独家提供 */
+/* 标题 */
+#djtg p:first-child{
+    background-color: #ff6600;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+#djtg .p2{
+    line-height: 42px;
+}
+.com-title li{
+    width: 100px;
+    line-height: 42px;
+    cursor: pointer;
+}
+.com-title li.active{
+    background-color: #f60;
+    color: #fff;
+}
+/* 内容 */
+#djtg .dj{
+    height: 534px;
+    border: #e6e6e6 1px solid;
+}
+#djtg .dj{
+    height: 496px;
+    border: solid 1px #e6e6e6;
+}
+#djtg .dj ul li{
+    margin-top: 15px;
+    float: left;
+    width: 198px;
+    text-indent: 18px;
+}
+#djtg .dj ul li p{
+    line-height: 25px;
+}
+
+
+
+/* 猜你喜欢 */
+/* 标题 */
+#cnxh p:first-child{
+    background-color: #ff6600;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+#cnxh .p2{
+    line-height: 42px;
+}
+/* 内容 */
+#cnxh .xh{
+    height: 496px;
+    border: solid 1px #e6e6e6;
+}
+#cnxh .xh ul li{
+    float: left;
+    width: 198px;
+    margin-top: 15px;
+    text-indent: 18px;
+}
+#cnxh .xh ul li p{
+    line-height: 25px;
+}
+
+
+
+
+
+/* 人文社科 */
+#rwsk ul{
+    height: 110px;
+}
+#rwsk ul li{
+    float: left;
+}
+#rwsk ul li img{
+    width: 200px;
+}
+.ywt img{
+    vertical-align: middle;
+}
