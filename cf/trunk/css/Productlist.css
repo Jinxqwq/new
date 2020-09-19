@@ -151,14 +151,14 @@
 }
 /* 独家提供 */
 /* 标题 */
-#djtg p:first-child{
+#provide p:first-child{
     background-color: #ff6600;
     width: 42px;
     height: 42px;
     line-height: 42px;
     text-align: center;
 }
-#djtg .p2{
+#provide .p2{
     line-height: 42px;
 }
 .com-title li{
@@ -171,50 +171,79 @@
     color: #fff;
 }
 /* 内容 */
-#djtg .dj{
-    height: 534px;
-    border: #e6e6e6 1px solid;
-}
-#djtg .dj{
+
+#provide .pro-con{
     height: 496px;
     border: solid 1px #e6e6e6;
 }
-#djtg .dj ul li{
-    margin-top: 15px;
+#provide .pro-con .proconbox{
+    display: none;
+}
+#provide .pro-con .cur{
+    display: block;
+}
+#provide .pro-con ul li{
+    margin-top: 10px;
+    padding-left: 10px;
     float: left;
     width: 198px;
     text-indent: 18px;
 }
-#djtg .dj ul li p{
+#provide .pro-con ul li p{
     line-height: 25px;
 }
-
-
+#provide .pro-con .proconbox .prolistslider>ul>li>ul>li{
+    width: 190px;
+    height: 220px;
+}
+#provide .pro-con .proconbox .prolistslider>ul>li>ul>li img{
+    width: 150px !important;
+    height: 150px !important;
+}
 
 /* 猜你喜欢 */
 /* 标题 */
-#cnxh p:first-child{
+#guess p:first-child{
     background-color: #ff6600;
     width: 42px;
-    height: 42px;
+    height: 44px;
     line-height: 42px;
     text-align: center;
 }
-#cnxh .p2{
+#guess .p2{
     line-height: 42px;
 }
+#guess .com-title a{
+    position: relative;
+}
+#guess .com-title a img{
+    position: absolute;
+    right: 60px;
+    top: 0;
+} 
 /* 内容 */
-#cnxh .xh{
+#guess .pro-con{
+    position: relative;
+    width: 1200px;
     height: 496px;
+    overflow: hidden;
     border: solid 1px #e6e6e6;
 }
-#cnxh .xh ul li{
+#guess .pro-con .box{
+    position: absolute;
+    width: 100%;
+}
+#guess .pro-con ul{
+    width: 1200px;
+    height: 496px;
+}
+#guess .pro-con ul li{
     float: left;
     width: 198px;
     margin-top: 15px;
     text-indent: 18px;
 }
-#cnxh .xh ul li p{
+#guess .pro-con ul li p{
     line-height: 25px;
 }
 
