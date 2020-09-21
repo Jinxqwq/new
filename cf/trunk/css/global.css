@@ -9,6 +9,12 @@ body{
   width: 1200px;
   margin: 0 auto;
 }
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
 .bd{
     border: 1px solid red;
 }
@@ -69,6 +75,9 @@ input{
 .mt20{
     margin-top: 20px;
 }
+.ml20{
+    margin-left: 20px;
+}
 .mt35{
     margin-top: 35px;
 }
@@ -77,6 +86,12 @@ input{
 }
 .mt50{
     margin-top: 50px;
+}
+.ml30{
+    margin-left: 30px;
+}
+.ptb14{
+    padding: 14px 0;
 }
 .fs12{
     font-size: 12px;
@@ -87,6 +102,9 @@ input{
 .fs18{
     font-size: 18px;
 }
+.fs20{
+    font-size: 20px;
+}
 .fs22{
     font-size: 22px;
 }
@@ -95,6 +113,15 @@ input{
 }
 .fs28{
     font-size: 28px;
+}
+.fs72{
+    font-size: 72px;
+}
+.cf83{
+    color: #f8380c;
+}
+.c99{
+    color: #999999;
 }
 .cf42{
     color: #f4290d;
@@ -111,20 +138,47 @@ input{
 .cfc{
     color: #fff;
 }
+.ca6{
+    color: #a6a6a6;
+}
+.c666{
+    color: #666666;
+}
+.c64{
+    color: #646464;
+}
+.cf4b{
+    color: #f4b212;
+}
 .c33{
     color: #333;
+}
+.c6c{
+    color: #6c6c6c;
 }
 .cb3{
     color: #b3b3b3;
 }
+.cfb{
+   color: #fb2f2f;
+}
 .c80{
     color: #808080;
+}
+.c81{
+    color: #818181;
+}
+.c8{
+    color: #f80e0e;
 }
 .bgcf60{
     background: #f60;
 }
 .bgc93d{
     background-color: #93d46f;
+}
+.bgcfff{
+    background-color: #fff;
 }
 /* 头部 */
 header{
