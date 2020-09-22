@@ -1,0 +1,82 @@
+#shopcartarea table{
+    width: 100%;
+    border-collapse: collapse;
+}
+/* #shopcartarea table,td{
+    border: 1px solid #ccc;
+} */
+
+#shopcartarea table thead tr,
+#shopcartarea table tfoot tr{
+    line-height: 60px;
+    background-color: #f2f2f2;
+}
+#shopcartarea table tbody tr{
+    border-bottom: #ccc 2px solid;
+    line-height: 180px;
+}
+#shopcartarea table tbody img{
+    vertical-align: middle;
+}
+#shopcartarea table tbody .reducebtn,
+#shopcartarea table tbody .addbtn{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    user-select: none;
+}
+#shopcartarea table tbody .count{
+    width: 100px;
+    height: 30px;
+    border: solid 1px #ccc;
+}
+
+#shopcartarea table tfoot .qjs{
+    background-color: #f60;
+    text-align: center;
+    
+}
+#shopcartarea table tfoot .qjs a{
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
+#rqdp .com-title p{
+	width: 124px;
+    height: 47px;
+    line-height: 47px;
+	background-color: #ff6600;
+    text-align: center;
+}
+#rqdp ul li:hover{
+    background-color: #f2f2f2;
+}
+#rqdp ul li:hover del{
+    display: block;
+}
+#rqdp ul li{
+    position: relative;
+    float: left;
+    width: 212px;
+    height: 256px;
+    margin-right: 24px;
+}
+#rqdp ul li .sj1{
+    width: 150px;
+    padding:8px 30px 0 30px;
+}
+#rqdp ul li p{
+    text-indent: 18px;
+}
+#rqdp ul li del{
+    margin-left: 18px;
+    color: #c0c0c0;
+    display: none;
+}
+.ywt img{
+    vertical-align: middle;
+    margin-top: 88px;
+}

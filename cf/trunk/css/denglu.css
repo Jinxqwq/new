@@ -1,0 +1,92 @@
+.hx{
+    border: 2px solid #e6e6e6;
+}
+header{
+    box-shadow: 0px 1px 8px 0px 
+		rgba(146, 146, 146, 0.4);
+}
+header .top .txturl {
+    color: #e6e6e6;
+    font-size: 18px;
+    text-indent: 271px;
+}
+header .ttp{
+    position: relative;
+}
+header .dl{
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 28px;
+    left: 276px;
+}
+header .dl p{
+    font-size: 30px;
+    line-height: 80px;
+}
+header .yy{
+    width: 232px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 64px;
+    right: 0;
+}
+header .yy p{
+    color: #a6a6a6;
+    font-size: 24px;
+}
+header .yy p span{
+    color: #666666;
+}
+#denglu{
+    position: relative;
+    height: 500px;
+}
+#denglu .dlbox{
+    width: 350px;
+	height: 370px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 62px;
+    right: 410px;
+}
+#denglu .title{
+    width: 350px;
+    height: 52px;
+    text-align: center;
+    border-bottom: 1px solid #f6f6f6;
+}
+#denglu .title .saoma{
+    width: 174px;
+    height: 52px;
+    line-height: 52px;
+}
+#denglu .title .zhanghu{
+    width: 174px;
+    height: 52px;
+    line-height: 52px;
+}
+#denglu .bbox{
+    width: 350px;
+    height: 315px;
+    position: relative;
+}
+#denglu .bbox .eym{
+    position: absolute;
+    top: 62px;
+    right: 182px;
+}
+#denglu .bbox .smdl{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+#denglu .bbox .wz{
+    font-size: 14px;
+    color: #666666;
+    line-height: 32px;
+    position: absolute;
+    bottom: 30px;
+    left: 84px;
+}

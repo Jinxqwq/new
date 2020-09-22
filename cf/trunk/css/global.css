@@ -15,6 +15,10 @@ body{
 .show{
     display: block;
 }
+.cursor{
+    cursor: pointer;
+}
+
 .bd{
     border: 1px solid red;
 }

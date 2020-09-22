@@ -1,0 +1,136 @@
+header{
+    box-shadow: 0px 1px 8px 0px 
+		rgba(146, 146, 146, 0.4);
+}
+header .top .txturl {
+    color: #e6e6e6;
+    font-size: 18px;
+    text-indent: 271px;
+}
+header .ttp{
+    position: relative;
+}
+header .dl{
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 28px;
+    left: 276px;
+}
+header .dl p{
+    font-size: 30px;
+    line-height: 80px;
+}
+header .yy{
+    width: 232px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 64px;
+    right: 0;
+}
+header .yy p{
+    color: #a6a6a6;
+    font-size: 24px;
+}
+header .yy p span{
+    color: #666666;
+}
+#zc{
+    width: 440px;
+    height: 680px;
+}
+#zc p{
+    width: 440px;
+    height: 48px;
+    line-height: 44px;
+    border: 1px solid #cccccc;
+    margin-top: 40px;
+    position: relative;
+}
+#zc p span{
+    display: inline-block;
+    width: 128px;
+    height: 44px;
+    font-size: 22px;
+    color: #666666;
+}
+#zc p>input{
+    width: 270px;
+    height: 44px;
+    line-height: 44px;
+}
+#zc p .ljzc{
+    width: 440px;
+    height: 48px;
+    background-color: #ff6600;
+    border: none;
+    font-size: 28px;
+    color: #ffffff;
+}
+#zc p .yzm,
+#zc p .sjyzm{
+    width: 136px;
+    height: 44px;
+}
+#zc p .yanzhengma{
+    display: inline-block;
+    width: 124px;
+    height: 40px;
+    background-color: #1a83e5;
+    font-size: 28px;
+    color: #ffffff;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+#zc p .hqyzm{
+    display: inline-block;
+    width: 124px;
+    height: 40px;
+    background-color: #e6e6e6;
+    font-size: 16px;
+    color: #4d4d4d;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    font-style: normal;
+    top: 4px;
+    right: 4px;
+}
+#zc .tyy{
+    margin-top: 4px;
+    border: 0;
+}
+#zc .tyy .ty{
+    width: 12px;
+    height: 12px;
+}
+#zc .tyy .tysp{
+    font-size: 14px;
+    color: #4d4d4d;
+    line-height: 14px;
+    margin-left: 5px;
+    width: 110px;
+}
+#zc .tyy .jdxy{
+    width: 140px;
+    font-size: 14px;
+    color: #ff6600;
+    line-height: 14px!important;
+}
+#zc p:last-child{
+    margin-top: 10px;
+}
+
+label{
+    color: red;
+    position: absolute;
+    top: 47px;
+    left: 0;
+}
+.hx{
+    border: 2px solid #e6e6e6;
+}
