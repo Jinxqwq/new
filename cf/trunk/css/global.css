@@ -9,6 +9,7 @@ body{
   width: 1200px;
   margin: 0 auto;
 }
+
 .hide{
     display: none;
 }
@@ -216,6 +217,13 @@ header .top h1{
 }
 /* 搜索框 */
  .searchbox form{
+    width: 440px;
+	height: 36px;
+	background-color: #ffffff;
+    border: solid 2px #ff6600;
+    box-sizing: border-box;
+}
+.topsearch  .searchbox form{
     width: 440px;
 	height: 36px;
 	background-color: #ffffff;

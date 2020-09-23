@@ -34,6 +34,12 @@ $().ready(function () {
                     required: true,
                     isxia:true,
                 },
+                hqyzm:{
+                    required: true,
+                },
+                yanzheng:{
+                    required: true,
+                }
 
 
             },
@@ -54,7 +60,13 @@ $().ready(function () {
                 phone: {
                     required: "请输入手机号",
                 },
-
+                hqyzm: {
+                    required: "请输入手机验证码",
+                },
+                yanzheng: {
+                    required: "请输入验证码",
+                },
+                
 
             }
         }
@@ -69,6 +81,17 @@ $().ready(function () {
         return this.optional(element) || (tel.test(value));
     }, "请输入正确的密码");
 
+    $("#zc .hqyzm").click(function () {
+        var time = 60;
+        var timer = setInterval(function(){
+            time--;
+            $("#zc .hqyzm").html("（"+time+"秒）重发");
+            if(time==0){
+                clearInterval(timer);
+                $("#zc .hqyzm").text("获取验证码");
+            }
+        },1000);
+    });
 
 
 

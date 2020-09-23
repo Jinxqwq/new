@@ -158,6 +158,9 @@
     line-height: 42px;
     text-align: center;
 }
+.hyp{
+    cursor: pointer;
+}
 #provide .p2{
     line-height: 42px;
 }

@@ -4,9 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>乐购商城-购物车页面
-
-    </title>
     <!-- 引入重置样式 -->
     <link rel="stylesheet" href="./css/normalize.css">
     <!-- 引入公共样式 -->
@@ -27,19 +24,16 @@
             <div class="lg-container clearfix ttp">
                 <!-- logo -->
                 <h1>
-                    <a href="./index.html"><img src="./imags/05-登录_02.png" alt=""></a>
+                    <a href="./denglu.html"><img src="./imags/05-登录_02.png" alt=""></a>
                 </h1>
                 <div class="txturl fl">
                     legouchina.cn
                 </div>
                 <div class="logintxtbox fr">
-                    欢迎光临<a href="">乐购</a>，请 <a href="">登陆</a>\<a href="">注册</a>
+                    欢迎光临<a href="./index.html">乐购</a>，请 <a href="./denglu.html">登录</a>\<a href="./zhuce.html">注册</a>
                 </div>
                 <div class="lg-container dl fl">
                     <p>欢迎登录</p>
-                </div>
-                <div class="lg-container yy fr">
-                    <p>已有帐号，请<span>登录</span></p>
                 </div>
             </div>
         </div>
@@ -49,15 +43,35 @@
         <img src="./imags/bg.png" alt="" class="fl">
         <div class="dlbox">
             <div class="title">
-                <p class="fl saoma">扫码登录</p>
-                <p class="fr zhanghu">账户登录</p>
+                <p class="fl saoma ">扫码登录</p>
+                <p class="fr zhanghu active">账户登录</p>
             </div>
-            <div class="bbox">
-                <img src="./imags/show.png" alt="" class="eym">
+            <div>
+            <div class="bbox hide">
+                <img src="./imags/show.png" alt="" class="eym hide">
                 <img src="./imags/phone.png" alt="" class="smdl">
                 <p class="wz">打开手机版 乐购APP  扫一扫</p>
             </div>
+            
+            <div class="zhbox">
+                <form action="" id="signupForm">
+                <p><input type="text" placeholder="用户名" name="username"></p>
+                <p class="mt20"><input type="password" placeholder="密码" name="pwd"></p>
+                <p class="dlmm mt25">
+                    <span><input type="checkbox" class="zddl">自动登录</span>
+                    <span class="wjmm">忘记密码</span>
+                </p>
+                <p><input type="submit"  class="dlan" value="登录"></p>
+            </form>
+                <div class="bzc">
+                    <img src="./imags/去往注册.png" alt="">
+                   <a href="./zhuce.html"> <span>立即注册</span></a>
+                </div>
+                
+            </div>
         </div>
+        </div>
+
     </div> 
     <!-- 页尾 -->
     <footer class=" clearfix">

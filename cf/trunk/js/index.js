@@ -126,10 +126,14 @@ $(".floornav ul li").hover(function () {
         let st=$("html,body").scrollTop();
             if(st>=400){
                 $(".topsearch").stop().slideDown();
-                $("header .searchbox form").appendTo(".topsearch>div")
+                $(".topsearch .searchbox").stop().slideDown();
+                $(".logo00").stop().slideDown();
+                
             }else{
                 $(".topsearch").stop().slideUp();
-                $(".topsearch>div form").appendTo("header .searchbox")
+                $(".topsearch .searchbox").stop().slideUp();
+                $(".logo00").stop().slideUp();
+                
             }
         
     })
